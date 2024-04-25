@@ -15,15 +15,24 @@ function toggleMenu() {
         }
         else {
             dataDisplay();
-            setTimeout(toggleMenu, 100);
+            setTimeout(toggleMenu, 300);
         }
 
 
     }
-
-    function () {
-        setTimeout(toggleMenu, 100);
-        
+    else {
+        navigationMenu.setAttribute("data-visible", "false");
+        navigationButton.setAttribute("data-visible", "false");
+        setTimeout(dataDisplay, 300);
     }
 
+
+    function dataDisplay() {
+        navigationMenu.classList.toggle("active");
+    }
+        
+    
+
 }
+
+navigationButton.addEventListener("click", toggleMenu);

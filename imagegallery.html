@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="shortcut icon" href="/images/gallery/logoimg.jpg" type="image/x-icon">
+    <title>Luke Combs Image Gallery</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Click Here to Return Home"><img src="images/logoimage.jpg" alt=""></a>
+    </header>
+
+    <!-- Nav Menu-->
+    <button class="toggle-menu" id="toggle-menu" data-visible="false"></button>
+    <nav class="navmenu" id="navmenu" data-visible="false">
+        <div><a href="index.html">Home</a></div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="imagegallery.html">Gallery <i class="fa-solid fa-caret-down"></i></a></div>
+            <div class="submenu-content">
+                <a href="#classicrock">Classic Rock</a>
+                <a href="#punkrock">Punk Rock</a>
+                <a href="#softrock">Soft Rock</a>
+            </div>
+        </div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="#videos">Videos <i class="fa-solid fa-caret-down"></i></a></div>
+            <div class="submenu-content">
+                <a href="#fusion">Fusion Jazz</a>
+                <a href="#modal">Modal Jazz</a>
+                <a href="#hardbop">Hard Bop</a>
+            </div>
+        </div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="#carousel">Carousel <i class="fa-solid fa-caret-down"></i></a></div>
+            <div class="submenu-content">
+                <a href="#thrash">Thrash Metal</a>
+                <a href="#death">Death Metal</a>
+                <a href="#sludge">Sludge Metal</a>
+            </div>
+        </div>
+        <div><a href="#about">About</a></div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="column">
+                <img src="images/gallery/image2.jpg" alt="">
+                <img src="images/gallery/image3.jpg" alt="">
+                <img src="images/gallery/image4.jpg" alt="">
+                <img src="images/gallery/image5.jpg" alt="">
+                <img src="images/gallery/image6.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="images/gallery/image7.jpg" alt="">
+                <img src="images/gallery/image8.jpg" alt="">
+                <img src="images/gallery/image9.jpg" alt="">
+                <img src="images/gallery/image10.jpg" alt="">
+                <img src="images/gallery/image11.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="images/gallery/image12.jpg" alt="">
+                <img src="images/gallery/image13.jpg" alt="">
+                <img src="images/gallery/image14.jpg" alt="">
+                <img src="images/gallery/image15.jpg" alt="">
+                <img src="images/gallery/image16.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="images/gallery/image17.jpg" alt="">
+                <img src="images/gallery/image18.jpg" alt="">
+                <img src="images/gallery/image19.jpg" alt="">
+                <img src="images/gallery/image20.jpg" alt="">
+                <img src="images/gallery/image1.jpg" alt="">
+            </div>
+        </div>
+    </main>
+    
+    <div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
+
+    <footer>
+        <p>&copy; <span id="copyrightyear"></span> Brennan Walsh Productions</p>
+    </footer>
+
+    <script>
+        const d = new Date();
+        document.getElementById('copyrightyear').innerHTML = d.getFullYear();
+    </script>
+</body>
+
+</html>
+
+<script src="js/scripts.js"></script>
