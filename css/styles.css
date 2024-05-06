@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    background-color: black;
+    background-color: rgb(191, 189, 189);
     min-height: 100%;
 }
 body {
@@ -30,8 +30,8 @@ header a img {
 .navmenu {
     display: flex;
     justify-content: center;
-    background-color: rgb(61, 0, 0);
-    background-image: linear-gradient(to right, rgb(61,0,0), black, rgb(61,0,0));
+    background-color: rgb(59, 152, 202);
+    background-image: linear-gradient(to right, rgb(59, 152, 202), black, rgb(59, 152, 202));
     border-block: 1px solid rgba(255, 255, 255 .3);
     position: sticky;
     top: 0;
@@ -58,9 +58,9 @@ header a img {
     position: absolute;
     top: 100%;
     width: 20%;
-    background-image: linear-gradient(to right, black, rgb(61, 0, 0));
-    border-inline: 1px solid rgb(61,0,0);
-    border-bottom: 1px solid rgb(61, 0, 0);
+    background-image: linear-gradient(to right, black, rgb(59, 152, 202));
+    border-inline: 1px solid rgb(59, 152, 202);
+    border-bottom: 1px solid rgbrgb(59, 152, 202);
 }
 .submenu:hover .submenu-content {
     display: block;
@@ -166,8 +166,12 @@ section ul {
     margin-bottom: 2em;
 }
 .frog img {
-    max-width: 500px;
-    border-radius: 50%;
+    max-width: 1000px;
+    border-radius: 300%;
+}
+
+section {
+    background-color: black;
 }
 
 footer {
