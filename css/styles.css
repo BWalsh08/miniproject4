@@ -183,6 +183,8 @@ footer p {
     text-align: center;
     font-size: 90%;
     font-variant: small-caps;
+    color: black;
+    font-weight: bold;
 }
 
 
