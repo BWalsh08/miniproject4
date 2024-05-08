@@ -187,6 +187,9 @@ footer p {
     font-weight: bold;
 }
 
+main .row {
+    align-items: center;
+}
 
 @media (max-width: 767px) {
     header {
